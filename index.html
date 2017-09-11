@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector</title>
+
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	
+	<div class="container">
+		<!-- Link to external javascript page -->
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+		
+		<header>Crystals Collector!</header>
+		
+		<!-- Instructions for the game -->
+		<div id="insructions">
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four cyrtals below.  By clicking on a cyrstal you will be adding a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total points to the random number - you lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time a new game starts, the value of the value of the crystals will change.</p>
+		</div>
+		<!-- This is where the computer's random number will show -->
+		<div id="computer-random"></div>
+		
+		<!-- This div shows the wins and losses of the current session - need to add text that's has makes a statement 'You won!' and 'you lost.' -->
+		<div id="game-results">
+			<p id="wins">Wins:</p>
+			<p id="losses">Losses:</p>
+		</div>
+
+		<!-- This is where the pictures of the crystals go and the majority of the code for this project -->
+		<div id="crystal-div">
+			<div id="crystal-1"></div>
+			<div id="crystal-2"></div>
+			<div id="crystal-3"></div>
+			<dir id="crystal-4"></dir>
+		</div>
+
+		<!-- This div simply shows the text below -->
+		<div>Your score:</div>
+
+		<!-- This div displays the users current score -->
+		<div id="your-score"></div>
+	
+
+	</div>
+
+</body>
+</html>
