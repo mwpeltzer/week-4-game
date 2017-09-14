@@ -11,8 +11,6 @@
 <body>
 	
 	<div class="container">
-		<!-- Link to external javascript page -->
-		<script type="text/javascript" src="assets/javascript/game.js"></script>
 		
 		<header>Crystals Collector!</header>
 		
@@ -35,10 +33,18 @@
 
 		<!-- This is where the pictures of the crystals go and the majority of the code for this project -->
 		<div id="crystal-div">
-			<div id="crystal-1"></div>
-			<div id="crystal-2"></div>
-			<div id="crystal-3"></div>
-			<dir id="crystal-4"></dir>
+			<div id="crystal-1">
+				<button class="gem" type="button">Click Me!</button>
+			</div>
+			<div id="crystal-2">
+				<button class="gem" type="button">Click Me!</button>
+			</div>
+			<div id="crystal-3">
+				<button class="gem" type="button">Click Me!</button>
+			</div>
+			<div id="crystal-4">
+				<button class="gem" type="button">Click Me!</button>
+			</div>
 		</div>
 
 		<!-- This div simply shows the text below -->
@@ -46,9 +52,13 @@
 
 		<!-- This div displays the users current score -->
 		<div id="your-score"></div>
-	
 
 	</div>
 
 </body>
+	 <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </html>
